@@ -1,7 +1,7 @@
 # Image Processing API
 
 ## Overview
-This API allows users to upload a CSV file containing product names and image URLs. The system processes these images, compresses them to 50% quality using Jimp, stores them in a database, and provides a status-check endpoint.
+This API allows users to upload a CSV file containing product names and image URLs. The system processes these images, compresses them to 50% using Jimp, stores them in a database, and provides a status-check endpoint.
 
 ## Features
 - CSV-based batch image processing
