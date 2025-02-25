@@ -72,10 +72,8 @@ The server will run on `http://localhost:3000`.
 }
 ```
 
-## Future Enhancements
-- Support for additional image transformations (resizing, cropping)
-- Async processing with message queues
-- Improved error handling and retry mechanisms
+### **Image Processing**
 
-## License
-This project is licensed under the MIT License.
+Images are processed using Jimp, with a quality setting of 50% compression to reduce file size while maintaining quality.
+
+Processed images are stored and referenced in the database.
